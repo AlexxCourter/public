@@ -4,9 +4,9 @@ class StartScreenScene extends Phaser.Scene {
     }
 
     preload(){
-        this.load.image('background', 'assets/startScreen.png'); 
-        this.load.image('button', 'assets/startbtn.png');
-        this.load.image('onibi','assets/onibi.png');
+        this.load.image('background', '../assets/startScreen.png'); 
+        this.load.image('button', '../assets/startbtn.png');
+        this.load.image('onibi','../assets/onibi.png');
     }
 
     create(){
