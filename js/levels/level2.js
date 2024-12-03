@@ -5,17 +5,30 @@ class LevelTwo extends Phaser.Scene {
 
     preload() {
         // Load assets
-        this.load.image('background', 'assets/background.png');
-        this.load.image('bg', 'assets/bg.png');
-        this.load.image('onibi', 'assets/onibi.png');
-        this.load.image('player', 'assets/kodama.png');
-        this.load.image('collectible', 'assets/ukicoin.png');
-        this.load.image('obstacle', 'assets/barrierph.png');
-        this.load.image('bullet', 'assets/bullet.png');
+        // this.load.image('background', 'assets/background.png');
+        // this.load.image('bg', 'assets/bg.png');
+        // this.load.image('onibi', 'assets/onibi.png');
+        // this.load.image('player', 'assets/kodama.png');
+        // this.load.image('collectible', 'assets/ukicoin.png');
+        // this.load.image('obstacle', 'assets/barrierph.png');
+        // this.load.image('bullet', 'assets/bullet.png');
 
-        this.load.audio('coin', 'assets/sounds/coin.wav');
-        this.load.audio('shoot', 'assets/sounds/shoot.wav');
-        this.load.audio('bgm', 'assets/sounds/bg.mp3');
+        // this.load.audio('coin', 'assets/sounds/coin.wav');
+        // this.load.audio('shoot', 'assets/sounds/shoot.wav');
+        // this.load.audio('bgm', 'assets/sounds/bg.mp3');
+
+        //github pages implementation
+        this.load.image('background', 'https://github.com/AlexxCourter/public/blob/ab1800f9b915c104c098fbffc5fd0bea4ab579da/assets/background.png');
+        this.load.image('bg', 'https://github.com/AlexxCourter/public/blob/ab1800f9b915c104c098fbffc5fd0bea4ab579da/assets/bg.png');
+        this.load.image('onibi', 'https://github.com/AlexxCourter/public/blob/ab1800f9b915c104c098fbffc5fd0bea4ab579da/assets/onibi.png');
+        this.load.image('player', 'https://github.com/AlexxCourter/public/blob/ab1800f9b915c104c098fbffc5fd0bea4ab579da/assets/kodama.png');
+        this.load.image('collectible', 'https://github.com/AlexxCourter/public/blob/ab1800f9b915c104c098fbffc5fd0bea4ab579da/assets/ukicoin.png');
+        this.load.image('obstacle', 'https://github.com/AlexxCourter/public/blob/ab1800f9b915c104c098fbffc5fd0bea4ab579da/assets/barrierph.png');
+        this.load.image('bullet', 'https://github.com/AlexxCourter/public/blob/ab1800f9b915c104c098fbffc5fd0bea4ab579da/assets/bullet.png');
+
+        this.load.audio('coin', 'https://github.com/AlexxCourter/public/blob/ab1800f9b915c104c098fbffc5fd0bea4ab579da/assets/sounds/coin.wav');
+        this.load.audio('shoot', 'https://github.com/AlexxCourter/public/blob/ab1800f9b915c104c098fbffc5fd0bea4ab579da/assets/sounds/shoot.wav');
+        this.load.audio('bgm', 'https://github.com/AlexxCourter/public/blob/ab1800f9b915c104c098fbffc5fd0bea4ab579da/assets/sounds/bg.mp3');
     }
 
     create() {
