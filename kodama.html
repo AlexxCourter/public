@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        html, body { 
+            margin: 0; 
+            padding: 0; 
+            overflow: hidden; 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            height: 100%; 
+            background-color: #444; /* Optional: Set the background color */ 
+        }
+        canvas {
+            border: 4px solid red;
+            box-shadow: 0 0 20px black;
+            box-sizing: border-box;
+        }
+    </style>
+    <script src="//cdn.jsdelivr.net/npm/phaser@3.11.0/dist/phaser.js"></script>
+    <!-- <script src="./js/main.js" defer></script> -->
+     <script type="module" src="./js/main.js" defer></script>
+    <title>Kodama</title>
+</head>
+<body>
+    <!-- <script type="text/javascript">
+
+    import LevelPickScene from './js/levelPick.js'
+    //myGameScene is considered level 1
+
+
+
+
+        // Game configuration
+        const config = {
+            type: Phaser.AUTO,
+            width: 800,
+            height: 600,
+            physics: {
+                default: 'arcade',
+                arcade: {
+                    gravity: { y: 0 },
+                    debug: true
+                }
+            },
+            scene: [StartScreenScene, LevelPickScene, MyGameScene, WinScene]
+        };
+
+        // Create a new Phaser game instance
+        const game = new Phaser.Game(config);
+
+    </script> -->
+</body>
+</html>
